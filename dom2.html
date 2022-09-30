@@ -1,0 +1,35 @@
+<!--2.code  to interact with the displayed HTML elements.
+On each button click, increase the value of the button click by 1 and display the count
+Confirm your code by clicking the button!
+
+
+
+
+4.Write a JavaScript function that creates a table, accept row, column numbers from the user, 
+and input row-column number as content (e.g. Row-0 Column-0) of a cell)
+5.simple calculator
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn" onclick="clickCount()">click here</button>
+    <span id="display">0</span>
+</body>
+<script>
+var count=0;
+var button =document.getElementById("btn");
+var output=document.getElementById("display");
+function clickCount()
+{
+    count++;
+    output.innerHTML=count;
+}
+</script>
+
+</html>
