@@ -5,24 +5,37 @@ Verify your solution by clicking the button. It should change its text.
 
 
 -->
-<!DOCTYPE html>  
-<html>  
-  
-<head>  
-    <script>  
-        function fun() {  
-            var btn = document.createElement("button");
-            btn.id="wrapper" 
-            document.body.appendChild(btn);  
-            document.write("hello world")
-        }  
-    </script>  
-</head>  
-  
-<body>  
-<h2 id="wrapper"> It is an example of using the document.createElement() method. </h2>  
- 
-    <button onclick = "fun()"> Create Button </button>  
-</body>  
-  
-</html> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #wrapper{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 500px;
+        margin-right: 300px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        color:cornflowerblue;
+
+    }
+</style>
+<body>
+    <div id="wrapper">
+        <input type="button" value="click" onclick="button()" style="color:blueviolet">
+    </div>
+    
+</body>
+<script>
+    function button(){
+        btn=document.getElementById("wrapper")
+        
+        btn.textContent='Clicked';
+    }
+</script>
+</html>

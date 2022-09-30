@@ -1,0 +1,35 @@
+.calculator{
+    width:200px;
+    height: 250px;
+    margin-left: 500px;
+    margin-right: 200px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding: 20px;
+   background-color: bisque;
+   border:solid black 3px;
+
+}
+#bt{  
+    background-color: crimson;
+    
+}
+input[type=button] {
+    font-family:'Times New Roman', Times, serif;
+    background-color:cadetblue;
+   
+    border: solid black 0.5px;
+    width: 100%;
+    border-radius: 5px;
+    height: 80%;
+    outline:blue;
+}  
+input[type=text]{
+    
+    font-family: 'Times New Roman', Times, serif;
+    border: solid black 0.5px;
+    width: 100%;
+    border-radius: 5px;
+    height: 80%;
+    outline:blue;
+}
