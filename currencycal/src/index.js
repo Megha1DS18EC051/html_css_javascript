@@ -3,16 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Hooksobj from './Hooksobj';
-import Hookeffect from './Hookeffect';
-import Hookeffect1 from './Hookeffect1';
-import Hookeffect2 from './Hookeffect2';
-import Coverter1 from './Coverter1';
+import Converter from './Converter';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-   <Coverter1/>
+    <App/>
   </React.StrictMode>
 );
 
